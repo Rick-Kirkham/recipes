@@ -1,6 +1,14 @@
 # Excel-Add-in-JS-WoodGrove-Expense-Trends
 The WoodGrove Bank Expense Trends add-in demonstrates how you can use the new JavaScript API for Microsoft Excel 2016 to create a compelling Excel add-in. With Expense Trends, you can import expense transactions into the, workbook, create dashboard and trackers, view and analyze trends, and track special transactions such as charitable donations and follow up items. The sample provides two experiences: one with task pane and another with add-in commands. The following figures show the main screens of this add-in.
 
+#### Parameters
+| Parameter	   | Type	|Description|
+|:---------------|:--------|:----------|:---|
+|listId|number|Required. The ID of an existing list.|
+|level|number|Required. The level in the list.|
+
+
+
 With Expense Trends, you can import expense transactions into the workbook, create dashboard and trackers, view and analyze trends, and track special transactions such as charitable donations and follow up items. The sample provides two experiences: one with task pane and another with add-in commands. The following figures show the main screens of this add-in.
 
 Applies to: Excel 2016, Excel for iPad, Excel for Mac
@@ -30,9 +38,9 @@ You'll need:
 property-access-examples) .
 
 ## Relationships
-| **Relationship** | **Type** | **Description** | 
-| contentControls | [ContentControlCollection](C:\Users\chbigham\Documents\contentcontrolcollection.md)  | Gets the collection of rich text content control objects that are in the body. Read-only. | 
-| font | [Font](C:\Users\chbigham\Documents\font.md)  | Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only. | 
+| **Relationship** | **Type** | **Description** |
+| contentControls | [ContentControlCollection](C:\Users\chbigham\Documents\contentcontrolcollection.md)  | Gets the collection of rich text content control objects that are in the body. Read-only. |
+| font | [Font](C:\Users\chbigham\Documents\font.md)  | Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only. |
 | inlinePictures | [InlinePictureCollection](C:\Users\chbigham\Documents\inlinepicturecollection.md)  | Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only. | 
 | paragraphs | [ParagraphCollection](C:\Users\chbigham\Documents\paragraphcollection.md)  | Gets the collection of paragraph objects that are in the body. Read-only. | 
 | parentContentControl | [ContentControl](C:\Users\chbigham\Documents\contentcontrol.md)  | Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only. | 
