@@ -5,7 +5,7 @@ The WoodGrove Bank Expense Trends add-in demonstrates how you can use the new Ja
 | Parameter	   | Type	|Description|
 |:---------------|:--------|:----------|:---|
 |listId|number|Required. The ID of an existing list.|
-|level|number|Required. The level in the list.|
+| name | string | Gets the name of the element. |
 
 
 
