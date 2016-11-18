@@ -11,9 +11,9 @@ With Expense Trends, you can import expense transactions into the workbook, crea
 ## Table of Contents
 
 * [Prerequisites](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#prerequisites) 
-* [Run the project](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#run-the-project) 
-* [Additional resources](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#additional-resources) 
-* [FAQ](http://www.bing.com/) 
+* [Properties](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#properties) 
+* [Relationships](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#relationships) 
+* [Method details](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#method-details) 
 
 ## Prerequisites
 
@@ -98,7 +98,8 @@ The [Silly stories](https://aka.ms/sillystorywordaddin)  add-in sample shows how
 
 Use the [requirement set](https://msdn.microsoft.com/EN-US/library/office/mt590206.aspx)  in run time checks to make sure your application is supported by the host version of Word. For more information about Office host application and server requirements, see [Requirements for running Office Add-ins](https://msdn.microsoft.com/EN-US/library/office/dn833104.aspx) 
 
-List One: top level is bullets
+
+##### List One: top level is bullets
 
 * First bullet
 * Second bullet
@@ -107,7 +108,8 @@ List One: top level is bullets
 * Third bullet
 
 
-List Two: top level is numeric
+
+##### List Two: top level is numeric
 
 1. First numeric item
     * First item in bulleted sublist
@@ -118,7 +120,8 @@ List Two: top level is numeric
 1. Third numeric item
 
 
-List Three: nine levels (the maximum)
+
+##### List Three: nine levels (the maximum)
 
 * Top level is bullet
     * Second level is bullet
