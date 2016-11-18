@@ -30,7 +30,6 @@ You'll need:
 | style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
 | text | string | Gets the text of the body. Use the **insertText** method to insert text. Read-only. | 
 | name | string | Gets the name of the element. | 
-
 *See property access* [examples](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#property-access-examples) .
 
 ## Relationships
@@ -42,7 +41,6 @@ You'll need:
 | inlinePictures | [InlinePictureCollection](C:\Users\chbigham\Documents\inlinepicturecollection.md)  | Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only. | 
 | paragraphs | [ParagraphCollection](C:\Users\chbigham\Documents\paragraphcollection.md)  | Gets the collection of paragraph objects that are in the body. Read-only. | 
 | parentContentControl | [ContentControl](C:\Users\chbigham\Documents\contentcontrol.md)  | Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only. | 
-
 
 ## Method details
 
