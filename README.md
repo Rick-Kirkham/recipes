@@ -31,7 +31,7 @@ You'll need:
 
 ## Properties
 | **Property** | **Type** | Description | 
-|:--------|:--------|:----------|
+|:----|:--------|:----------|
 | style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
 | text | string | Gets the text of the body. Use the insertText method to insert text. Read-only. | 
 | name | string | Gets the name of the element. | 
