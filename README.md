@@ -21,21 +21,21 @@ You'll need:
 * Excel 2016, version 6769.2011 or later
 ## Properties
 
-| **Property** | **Type** | **Description** | 
+| Property | Type | Description | 
 |:--|:--|:--|
 | style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
-| text | string | Gets the text of the body. Use the **insertText** method to insert text. Read-only. | 
+| text | string | Gets the text of the body. Use the insertText method to insert text. Read-only. | 
 | name | string | Gets the name of the element. | 
 *See property access* [examples](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#property-access-examples) .
 ## Relationships
 
-| **Relationship** | **Type** | **Description** | 
+| Relationship | Type | Description | 
 |:--|:--|:--|
-| contentControls | [ContentControlCollection](C:\Users\chbigham\Documents\contentcontrolcollection.md)  | Gets the collection of rich text content control objects that are in the body. Read-only. | 
-| font | [Font](C:\Users\chbigham\Documents\font.md)  | Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only. | 
-| inlinePictures | [InlinePictureCollection](C:\Users\chbigham\Documents\inlinepicturecollection.md)  | Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only. | 
-| paragraphs | [ParagraphCollection](C:\Users\chbigham\Documents\paragraphcollection.md)  | Gets the collection of paragraph objects that are in the body. Read-only. | 
-| parentContentControl | [ContentControl](C:\Users\chbigham\Documents\contentcontrol.md)  | Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only. | 
+| contentControls | ContentControlCollection | Gets the collection of rich text content control objects that are in the body. Read-only. | 
+| font | Font | Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only. | 
+| inlinePictures | InlinePictureCollection | Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only. | 
+| paragraphs | ParagraphCollection | Gets the collection of paragraph objects that are in the body. Read-only. | 
+| parentContentControl | ContentControl | Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only. | 
 ## Method details
 
 ### clear()
