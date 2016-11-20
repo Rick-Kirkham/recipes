@@ -10,7 +10,7 @@ With Expense Trends, you can import expense transactions into the workbook, crea
 
 ## Table of Contents
 
-* [Prerequisites](http://www.bing.com/something.html#prerequisites) 
+* [Prerequisites](#prerequisites) 
 * [Properties](#properties) 
 * [Relationships](#relationships) 
 * [Method details](#method-details) 
@@ -30,7 +30,6 @@ You'll need:
 | style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
 | text | string | Gets the text of the body. Use the insertText method to insert text. Read-only. | 
 | name | string | Gets the name of the element. | 
-*See property access* [examples](#property-access-examples) .
 
 ## Relationships
 
