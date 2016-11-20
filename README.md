@@ -25,19 +25,21 @@ You'll need:
 
 ## Properties
 
-**Property**	**Type**	**Description**
-style	string	Gets or sets the style used for the body. This is the name of the pre-installed or custom style.
-text	string	Gets the text of the body. Use the **insertText** method to insert text. Read-only.
-name	string	Gets the name of the element.
+| **Property** | **Type** | **Description** | 
+|:--|:--|:--|
+| style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
+| text | string | Gets the text of the body. Use the **insertText** method to insert text. Read-only. | 
+| name | string | Gets the name of the element. | 
 
 ## Relationships
 
-**Relationship**	**Type**	**Description**
-contentControls	[ContentControlCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/contentcontrolcollection.md) 	Gets the collection of rich text content control objects that are in the body. Read-only.
-font	[Font](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/font.md) 	Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only.
-inlinePictures	[InlinePictureCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/inlinepicturecollection.md) 	Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only.
-paragraphs	[ParagraphCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/paragraphcollection.md) 	Gets the collection of paragraph objects that are in the body. Read-only.
-parentContentControl	[ContentControl](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/contentcontrol.md) 	Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only.
+| **Relationship** | **Type** | **Description** | 
+|:--|:--|:--|
+| contentControls | [ContentControlCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/contentcontrolcollection.md)  | Gets the collection of rich text content control objects that are in the body. Read-only. | 
+| font | [Font](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/font.md)  | Gets the text format of the body. Use this to get and set font name, size, color, and other properties. Read-only. | 
+| inlinePictures | [InlinePictureCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/inlinepicturecollection.md)  | Gets the collection of inlinePicture objects that are in the body. The collection does not include floating images. Read-only. | 
+| paragraphs | [ParagraphCollection](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/paragraphcollection.md)  | Gets the collection of paragraph objects that are in the body. Read-only. | 
+| parentContentControl | [ContentControl](https://github.com/OfficeDev/office-js-docs/blob/master/reference/word/contentcontrol.md)  | Gets the content control that contains the body. Returns null if there isn't a parent content control. Read-only. | 
 
 ## Method details
 
