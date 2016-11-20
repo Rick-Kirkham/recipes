@@ -10,10 +10,10 @@ With Expense Trends, you can import expense transactions into the workbook, crea
 
 ## Table of Contents
 
-* [Prerequisites](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#prerequisites) 
-* [Properties](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#properties) 
-* [Relationships](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#relationships) 
-* [Method details](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#method-details) 
+* [Prerequisites](http://www.bing.com/something.html#prerequisites) 
+* [Properties](#properties) 
+* [Relationships](#relationships) 
+* [Method details](#method-details) 
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ You'll need:
 | style | string | Gets or sets the style used for the body. This is the name of the pre-installed or custom style. | 
 | text | string | Gets the text of the body. Use the insertText method to insert text. Read-only. | 
 | name | string | Gets the name of the element. | 
-*See property access* [examples](D:\repos\Word-Add-in-JavaScript-MDConversion\output-simple-get.docx#property-access-examples) .
+*See property access* [examples](#property-access-examples) .
 
 ## Relationships
 
