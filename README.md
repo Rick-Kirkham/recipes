@@ -122,8 +122,7 @@ Use the [requirement set](https://msdn.microsoft.com/EN-US/library/office/mt5902
 
 ##### List Three: nine levels (the maximum)
 
-* Top level is bullet
-    * Second level is bullet
+
         1. Third level is numeric
             1. Fourth level is numeric
                 * Fifth level is bullet
