@@ -132,6 +132,3 @@ Use the [requirement set](https://msdn.microsoft.com/EN-US/library/office/mt5902
                             1. Eighth is numeric
                                 * Ninth is bullet
 
-
-
-
