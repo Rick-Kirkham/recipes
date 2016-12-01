@@ -8,6 +8,46 @@ With Expense Trends, you can import expense transactions into the workbook, crea
 *Applies to: Excel 2016, Excel for iPad, Excel for Mac*
 
 
+## Table of Contents with Bookmark Links (second level header)
+
+[Table](#table-second-level-header) 
+[Code Block](#code-block-fourth-level-header) 
+[Paragraph with Web Link](#paragraph-with-web-link-third-level-header) 
+[Complex List](#complex-list-fifth-level-header) 
+
+## Table (second level header)
+
+| **Name** | **Mood** | **Hobby** | 
+|:--|:--|:--|
+| Bob | happy | Cooking and baking | 
+| Sally | wistful | Running marathons **barefoot** | 
+| Mary | energetic | Playing multiple games of chess simultaneously | 
+
+#### Code Block (fourth level header)
+
+```
+// This code is only here to illustrate a code block.
+Word.run(function (context) {
+    var body = context.document.body;
+    body.clear();
+    return context.sync().then(function () {
+        console.log('Cleared the body contents.');
+    });
+})
+```
+
+### Paragraph with Web Link (third level header)
+
+For more information about Office host application and server requirements, see [Requirements for running Office Add-ins](https://msdn.microsoft.com/EN-US/library/office/dn833104.aspx). 
+
+##### Complex List (fifth level header)
+
+There can be up to nine levels in a list.
+
+
+
+
+
 ## Table of Contents
 
 * [Prerequisites](#prerequisites) 
