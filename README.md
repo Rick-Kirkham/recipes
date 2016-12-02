@@ -8,12 +8,15 @@ With Expense Trends, you can import expense transactions into the workbook, crea
 *Applies to: Excel 2016, Excel for iPad, Excel for Mac*
 
 
-## Table of Contents with Bookmark Links (second level header)
+## Table of Contents with Bookmark Links
 
-[Table](#table-second-level-header) 
-[Code Block](#code-block-fourth-level-header) 
-[Paragraph with Web Link](#paragraph-with-web-link-third-level-header) 
-[Complex List](#complex-list-fifth-level-header) 
+    [Table](#table-second-level-header) 
+
+    [Code Block](#code-block-fourth-level-header) 
+
+    [Paragraph with Web Link](#paragraph-with-web-link-third-level-header) 
+
+    [Complex List](#complex-list-fifth-level-header) 
 
 ## Table (second level header)
 
